@@ -1,5 +1,4 @@
 import java.util.Formatter;
-//test : 16:24
 /**
  * A naked recursive list of integers, similar to what we saw in lecture 3, but
  * with a large number of additional methods.
