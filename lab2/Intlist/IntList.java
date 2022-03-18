@@ -8,6 +8,7 @@ import java.util.Formatter;
  */
 public class IntList {
     /**
+     *
      * First element of list.
      */
     public int first;

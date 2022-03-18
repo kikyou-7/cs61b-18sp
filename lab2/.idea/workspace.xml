@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97bf1b25-a09f-4984-8e62-3aca4192fb8c" name="变更" comment="&quot;a test&quot;" />
+    <list default="true" id="97bf1b25-a09f-4984-8e62-3aca4192fb8c" name="变更" comment="&quot;a test&quot;">
+      <change beforePath="$PROJECT_DIR$/Intlist/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Intlist/IntList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/IntList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/IntList.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,13 +28,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library-sp18/javalib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../idea_java" />
     <property name="project.structure.last.edited" value="库" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="应用程序.DebugExercise2">
+  <component name="RunManager" selected="应用程序.DebugExercise3">
     <configuration name="DebugExercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DebugExercise1" />
       <module name="lab2" />
@@ -46,10 +49,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DebugExercise3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DebugExercise3" />
+      <module name="lab2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.DebugExercise2" />
+        <item itemvalue="应用程序.DebugExercise3" />
         <item itemvalue="应用程序.DebugExercise1" />
+        <item itemvalue="应用程序.DebugExercise2" />
       </list>
     </recent_temporary>
   </component>
@@ -90,5 +101,8 @@
     </ignored-roots>
     <MESSAGE value="&quot;a test&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;a test&quot;" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lab2$DebugExercise3.ic" NAME="DebugExercise3 覆盖结果" MODIFIED="1647593856676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
