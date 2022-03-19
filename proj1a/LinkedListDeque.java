@@ -1,15 +1,15 @@
 public class LinkedListDeque<T> {
-    private class node {
+    private class Node {
         T value;
-        node pre,next;
-        node(T item, node pre, node next){
+        Node pre, next;
+        Node(T item, Node pre, Node next) {
             this.value = item;
             this.pre = pre;
             this.next = next;
         }
     }
 
-    public node head, tail;
+    public Node head, tail;
     public int size;
 
     public LinkedListDeque() {
@@ -17,7 +17,7 @@ public class LinkedListDeque<T> {
         size = 0;
     }
     public void addFirst(T item) {
-        node p = new node(item, null, head);
+        Node p = new Node(item, null, head);
         if (size == 0) {
             head = tail = p;
         }
@@ -28,7 +28,7 @@ public class LinkedListDeque<T> {
         size += 1;
     }
     public void addLast(T item) {
-        node p = new node(item, this.tail, null);
+        Node p = new Node(item, this.tail, null);
         if (size == 0) {
             head = tail = p;
         }
@@ -38,14 +38,14 @@ public class LinkedListDeque<T> {
         }
         size += 1;
     }
-    public boolean isEmpty() {
+    public boolean isEmpty(){
         return size == 0;
     }
     public int size() {
         return this.size;
     }
     public void printDeque() {
-        node p = head;
+        Node p = head;
         while(p != null) {
             System.out.print(p.value + " ");
             p = p.next;
@@ -57,7 +57,7 @@ public class LinkedListDeque<T> {
             return null;
         }
         size -= 1;
-        node p = head;
+        Node p = head;
         head = head.next;
         if (size == 0){
             tail = null;
@@ -72,7 +72,7 @@ public class LinkedListDeque<T> {
             return null;
         }
         size -= 1;
-        node p = tail;
+        Node p = tail;
         tail = tail.pre;
         if (size == 0) {
             head = null; // tail = null
@@ -83,7 +83,7 @@ public class LinkedListDeque<T> {
         return p.value;
     }
     public T get(int index) {
-        node p = head;
+        Node p = head;
         while (index != 0 && p != null) {
             index--;
             p = p.next;
@@ -95,14 +95,14 @@ public class LinkedListDeque<T> {
             return p.value;
         }
     }
-    private T dfs(node p, int index){
+    private T dfs(Node p, int index){
         if (p == null) {
             return null;
         }
         else if(index == 0) {
             return p.value;
         }
-        return dfs(p.next, index-1);
+        return dfs(p.next, index - 1);
     }
     public T getRecursive(int index) {
         return dfs(head, index);
