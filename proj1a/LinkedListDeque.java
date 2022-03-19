@@ -18,10 +18,16 @@ public class LinkedListDeque<T> {
     }
     public void addFirst(T item) {
         this.head = new node(item, null, this.head);
+        if (tail == null) {
+            tail = head;
+        }
         size += 1;
     }
     public void addLast(T item) {
         this.tail = new node(item, this.tail, null);
+        if (head == null) {
+            head = tail;
+        }
         size += 1;
     }
     public boolean isEmpty() {
@@ -44,7 +50,12 @@ public class LinkedListDeque<T> {
         size -= 1;
         node p = head;
         head = head.next;
-        if(head != null) head.pre = null;
+        if (head != null) {
+            head.pre = null;
+        }
+        else {
+            tail = null;
+        }
         return p.value;
     }
     public T removeLast() {
@@ -54,7 +65,12 @@ public class LinkedListDeque<T> {
         size -= 1;
         node p = tail;
         tail = tail.pre;
-        if(tail != null) tail.next = null;
+        if (tail != null) {
+            tail.next = null;
+        }
+        else {
+            head = null;
+        }
         return p.value;
     }
     public T get(int index) {
