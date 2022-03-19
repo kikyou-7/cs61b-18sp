@@ -1,4 +1,4 @@
-public class LinkedListDeque<T> {
+public class LinkedList<T> {
     private class Node {
         T value;
         Node pre, next;
@@ -6,36 +6,28 @@ public class LinkedListDeque<T> {
             this.value = item;
             this.pre = pre;
             this.next = next;
-            //////
         }
     }
 
     public Node head, tail;
     public int size;
 
-    public LinkedListDeque() {
-        head = tail = null;
+    public LinkedList() {
+        head = new Node(null, null, null);
+        tail = new Node(null, null, null);
         size = 0;
     }
     public void addFirst(T item) {
-        Node p = new Node(item, null, head);
-        if (size == 0) {
-            head = tail = p;
-        }
-        else {
-            head.pre = p;
-            head = p;
+        head.next = new Node(item, head, head.next);
+        if (head.next.next != null) {
+            head.next.next.pre = head.next;
         }
         size += 1;
     }
     public void addLast(T item) {
-        Node p = new Node(item, this.tail, null);
-        if (size == 0) {
-            head = tail = p;
-        }
-        else {
-            tail.next = p;
-            tail = p;
+        tail.pre = new Node(item, tail.pre, tail);
+        if (tail.pre.pre != null) {
+
         }
         size += 1;
     }
