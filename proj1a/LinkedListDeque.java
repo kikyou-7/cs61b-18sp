@@ -1,8 +1,8 @@
-public class LinkedListDeque<type> {
-    private class node{
-        public type value;
-        public node pre,next;
-        public node(type item, node pre, node next){
+public class LinkedListDeque<T> {
+    private class node {
+        T value;
+        node pre,next;
+        node(T item, node pre, node next){
             this.value = item;
             this.pre = pre;
             this.next = next;
@@ -12,33 +12,33 @@ public class LinkedListDeque<type> {
     public node head, tail;
     public int size;
 
-    public LinkedListDeque(){
+    public LinkedListDeque() {
         head = tail = null;
         size = 0;
     }
-    public void addFirst(type item){
+    public void addFirst(T item) {
         this.head = new node(item, null, this.head);
         size += 1;
     }
-    public void addLast(type item){
+    public void addLast(T item) {
         this.tail = new node(item, this.tail, null);
         size += 1;
     }
-    public boolean isEmpty(){
+    public boolean isEmpty() {
         return size == 0;
     }
-    public int size(){
+    public int size() {
         return this.size;
     }
-    public void printDeque(){
+    public void printDeque() {
         node p = head;
-        while(p != null){
+        while(p != null) {
             System.out.print(p.value + " ");
             p = p.next;
         }
     }
-    public type removeFirst(){
-        if(head == null){
+    public T removeFirst() {
+        if (head == null){
             return null;
         }
         size -= 1;
@@ -47,8 +47,8 @@ public class LinkedListDeque<type> {
         if(head != null) head.pre = null;
         return p.value;
     }
-    public type removeLast(){
-        if(tail == null){
+    public T removeLast() {
+        if (tail == null){
             return null;
         }
         size -= 1;
@@ -57,29 +57,29 @@ public class LinkedListDeque<type> {
         if(tail != null) tail.next = null;
         return p.value;
     }
-    public type get(int index){
+    public T get(int index) {
         node p = head;
-        while(index != 0 && p != null){
+        while (index != 0 && p != null) {
             index--;
             p = p.next;
         }
-        if(p == null){
+        if (p == null) {
             return null;
         }
         else {
             return p.value;
         }
     }
-    private type dfs(node p,int index){
-        if(p == null) {
+    private T dfs(node p, int index){
+        if (p == null) {
             return null;
         }
-        else if(index == 0){
+        else if(index == 0) {
             return p.value;
         }
         return dfs(p.next, index-1);
     }
-    public type getRecursive(int index){
+    public T getRecursive(int index) {
         return dfs(head, index);
     }
 }
