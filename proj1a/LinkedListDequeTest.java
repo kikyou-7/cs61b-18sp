@@ -83,10 +83,28 @@ public class LinkedListDequeTest {
 		printTestStatus(passed);
 
 	}
-
+	public static void test() {
+		System.out.println("Running local tests.\n");
+		LinkedListDeque<Integer> l1 = new LinkedListDeque<>();
+		for(int i=1;i<=3;i++) {
+			l1.addFirst(i);
+		}
+		l1.printDeque();
+		for(int i=4;i<=6;i++) {
+			l1.addLast(i);
+		}
+		l1.printDeque();
+		for(int i=1;i<=3;i++) {
+			System.out.println(l1.removeFirst());
+		}
+		for(int i=1;i<=3;i++) {
+			System.out.println(l1.removeLast());
+		}
+	}
 	public static void main(String[] args) {
-		System.out.println("Running tests.\n");
-		addIsEmptySizeTest();
-		addRemoveTest();
+		//System.out.println("Running tests.\n");
+		//addIsEmptySizeTest();
+		//addRemoveTest();
+		test();
 	}
 } 
