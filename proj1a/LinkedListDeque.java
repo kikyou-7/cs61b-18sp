@@ -6,7 +6,6 @@ public class LinkedListDeque<T> {
             this.value = item;
             this.pre = pre;
             this.next = next;
-            //////
         }
     }
 
