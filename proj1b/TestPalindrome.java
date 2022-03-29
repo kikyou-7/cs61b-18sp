@@ -38,4 +38,17 @@ public class TestPalindrome {
             assertFalse(palindrome.isPalindrome(word, obo));
         }
     }
+
+    @Test
+    public void testIsPalindromeObn() {
+        String[] wordsAC = {"ae", "abfe", "", "a", "AAE"};
+        String[] wordsWA = {"abbA", "ac", "acc", "aa", "aaa"};
+        OffByN obn = new OffByN(4);
+        for (String word : wordsAC) {
+            assertTrue(palindrome.isPalindrome(word, obn));
+        }
+        for (String word : wordsWA) {
+            assertFalse(palindrome.isPalindrome(word, obn));
+        }
+    }
 }

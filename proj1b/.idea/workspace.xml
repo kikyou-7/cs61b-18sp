@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9a4caaf-5c0a-49eb-a0ea-9efdf571a30c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedListDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OffByN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OffByOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/Arithmetic/ArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/Arithmetic/ArithmeticTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/IntList/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/IntList/IntList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/IntList/IntListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/IntList/IntListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestOffByOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestOffByOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OffByN.java" beforeDir="false" afterPath="$PROJECT_DIR$/OffByN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj1b/OffByOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj1b/OffByOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj1b/TestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj1b/TestPalindrome.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestPalindrome.testIsPalindrome_obo">
+  <component name="RunManager" selected="JUnit.TestPalindrome.testIsPalindromeObn">
     <configuration name="TestOffByOne.testEqualChars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proj1b" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,6 +90,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestPalindrome.testIsPalindromeObn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj1b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPalindrome" />
+      <option name="METHOD_NAME" value="testIsPalindromeObn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPalindrome.testIsPalindrome_obo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proj1b" />
       <option name="PACKAGE_NAME" value="" />
@@ -103,23 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPalindrome.testWordToDeque" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proj1b" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestPalindrome" />
-      <option name="METHOD_NAME" value="testWordToDeque" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPalindrome.testIsPalindromeObn" />
         <item itemvalue="JUnit.TestPalindrome.testIsPalindrome_obo" />
         <item itemvalue="JUnit.TestOffByOne.testEqualChars" />
         <item itemvalue="JUnit.TestPalindrome.testIsPalindrome" />
         <item itemvalue="JUnit.TestPalindrome" />
-        <item itemvalue="JUnit.TestPalindrome.testWordToDeque" />
       </list>
     </recent_temporary>
   </component>

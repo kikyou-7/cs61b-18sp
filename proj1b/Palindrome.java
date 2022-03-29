@@ -30,14 +30,13 @@ public class Palindrome {
     public boolean isPalindrome(String word, CharacterComparator cc) {
         int n = word.length();
         Deque<Character> dequeWord = wordToDeque(word);
-        OffByOne obo = new OffByOne();
         while (!dequeWord.isEmpty()) {
             Character f1 = dequeWord.removeFirst();
             if (dequeWord.isEmpty()) {
                 break;
             }
             Character f2 = dequeWord.removeLast();
-            if (!obo.equalChars(f1, f2)) {
+            if (!cc.equalChars(f1, f2)) {
                 return false;
             }
         }
