@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2d4ac17-85f1-4af5-a586-1b615fe42d56" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/synthesizer/AbstractBoundedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/synthesizer/AbstractBoundedQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/synthesizer/ArrayRingBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/synthesizer/ArrayRingBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/synthesizer/GuitarString.java" beforeDir="false" afterPath="$PROJECT_DIR$/synthesizer/GuitarString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/Arithmetic/ArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/Arithmetic/ArithmeticTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/IntList/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/IntList/IntList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/IntList/IntListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/IntList/IntListTest.java" afterDir="false" />
