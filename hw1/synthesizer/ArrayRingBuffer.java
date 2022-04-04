@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 //TODO: Make sure to make this class and all of its methods public
 //TODO: Make sure to make this class extend AbstractBoundedQueue<t>
-public class ArrayRingBuffer<T>  extends AbstractBoundedQueue<T>{
+public class ArrayRingBuffer<T>  extends AbstractBoundedQueue<T> {
     /* Index for the next dequeue or peek. */
     private int first;            // index for the next dequeue or peek
     /* Index for the next enqueue. */
@@ -22,7 +22,7 @@ public class ArrayRingBuffer<T>  extends AbstractBoundedQueue<T>{
         //       here shadows the field we inherit from AbstractBoundedQueue, so
         //       you'll need to use this.capacity to set the capacity.
         rb = (T[]) new Object[capacity];
-        first = capacity/2;
+        first = capacity / 2;
         last = first;
         this.capacity = capacity;
         this.fillCount = 0;
@@ -81,7 +81,7 @@ public class ArrayRingBuffer<T>  extends AbstractBoundedQueue<T>{
     }
     private class ArrayRingBufferIterator implements Iterator<T> {
         private int pos;
-        public ArrayRingBufferIterator() {
+        ArrayRingBufferIterator() {
             pos = first;
         }
         @Override
@@ -92,7 +92,7 @@ public class ArrayRingBuffer<T>  extends AbstractBoundedQueue<T>{
         @Override
         public T next() {
             T ret = rb[pos];
-            pos = (pos+1) % capacity;
+            pos = (pos + 1) % capacity;
             return ret;
         }
     }

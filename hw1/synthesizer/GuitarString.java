@@ -19,7 +19,7 @@ public class GuitarString {
         //       accuracy, use the Math.round() function before casting.
         //       Your buffer should be initially filled with zeros.
         buffer = new ArrayRingBuffer<Double>((int) Math.round(SR / frequency));
-        while(!buffer.isFull()) {
+        while (!buffer.isFull()) {
             buffer.enqueue(0.0);
         }
     }
@@ -32,10 +32,10 @@ public class GuitarString {
         //       double r = Math.random() - 0.5;
         //
         //       Make sure that your random numbers are different from each other.
-        while(!buffer.isEmpty()) {
+        while (!buffer.isEmpty()) {
             buffer.dequeue();
         }
-        while(!buffer.isFull()) {
+        while (!buffer.isFull()) {
             buffer.enqueue(Math.random() - 0.5);
         }
     }
@@ -47,8 +47,8 @@ public class GuitarString {
         // TODO: Dequeue the front sample and enqueue a new sample that is
         //       the average of the two multiplied by the DECAY factor.
         //       Do not call StdAudio.play().
-        double t1 = (double)buffer.dequeue();
-        double t2 = (double)buffer.peek();
+        double t1 = (double) buffer.dequeue();
+        double t2 = (double) buffer.peek();
         buffer.enqueue((t1 + t2) * 0.5 * DECAY);
     }
 
