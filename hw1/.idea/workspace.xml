@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2d4ac17-85f1-4af5-a586-1b615fe42d56" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/synthesizer/AbstractBoundedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthesizer/ArrayRingBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthesizer/BoundedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthesizer/GuitarString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuitarHeroLite.java.skeleton" beforeDir="false" afterPath="$PROJECT_DIR$/GuitarHeroLite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuitarPlayer.java.skeleton" beforeDir="false" afterPath="$PROJECT_DIR$/GuitarPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTFAF.java.skeleton" beforeDir="false" afterPath="$PROJECT_DIR$/TTFAF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/synthesizer/ArrayRingBuffer.java.skeleton" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/synthesizer/GuitarString.java.skeleton" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/synthesizer/TestArrayRingBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/synthesizer/TestArrayRingBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/synthesizer/TestGuitarString.java" beforeDir="false" afterPath="$PROJECT_DIR$/synthesizer/TestGuitarString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/Arithmetic/ArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/Arithmetic/ArithmeticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/IntList/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/IntList/IntList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/IntList/IntListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/IntList/IntListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj2/byog/lab5/HexWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj2/byog/lab5/HexWorld.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27HgqyxjAlQMXO89J3PqQo4rZPY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library-sp18/javalib" />
+    <property name="project.structure.last.edited" value="库" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
+  </component>
+  <component name="RunManager" selected="应用程序.GuitarHeroLite">
+    <configuration name="GuitarHeroLite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuitarHeroLite" />
+      <module name="hw1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TTFAF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TTFAF" />
+      <module name="hw1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArrayRingBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synthesizer.TestArrayRingBuffer" />
+      <module name="hw1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synthesizer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGuitarString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synthesizer.TestGuitarString" />
+      <module name="hw1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synthesizer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.GuitarHeroLite" />
+        <item itemvalue="应用程序.TestGuitarString" />
+        <item itemvalue="应用程序.TestArrayRingBuffer" />
+        <item itemvalue="应用程序.TTFAF" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c2d4ac17-85f1-4af5-a586-1b615fe42d56" name="变更" comment="" />
+      <created>1648982620794</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648982620794</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
